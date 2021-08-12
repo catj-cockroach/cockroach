@@ -1,4 +1,4 @@
-module github.com/cockroachdb/cockroach
+module github.com/catj-cockroach/cockroach
 
 go 1.16
 
@@ -202,3 +202,6 @@ replace github.com/knz/go-libedit => github.com/otan-cockroach/go-libedit v1.10.
 replace go.etcd.io/etcd/pkg/v3 => go.etcd.io/etcd/pkg/v3 v3.0.0-20201109164711-01844fd28560
 
 replace github.com/docker/docker => github.com/moby/moby v20.10.6+incompatible
+
+// for testing with my fork
+replace github.com/cockroachdb/cockroach => ./
