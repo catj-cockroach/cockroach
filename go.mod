@@ -52,7 +52,7 @@ require (
 	github.com/cockroachdb/tools v0.0.0-20211112185054-642e51449b40
 	github.com/cockroachdb/ttycolor v0.0.0-20210902133924-c7d7dcdde4e8
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd
-	github.com/containerd/containerd v1.5.4
+	github.com/containerd/containerd v1.5.16
 	github.com/coreos/go-oidc v2.2.1+incompatible
 	github.com/dave/dst v0.24.0
 	github.com/dgryski/go-metro v0.0.0-20180109044635-280f6062b5bc // indirect
@@ -119,7 +119,7 @@ require (
 	github.com/mmatczuk/go_generics v0.0.0-20181212143635-0aaa050f9bab
 	github.com/montanaflynn/stats v0.6.3
 	github.com/olekukonko/tablewriter v0.0.5-0.20200416053754-163badb3bac6
-	github.com/opencontainers/image-spec v1.0.1
+	github.com/opencontainers/image-spec v1.0.2
 	github.com/opennota/wd v0.0.0-20180911144301-b446539ab1e7 // indirect
 	github.com/peterbourgon/g2s v0.0.0-20170223122336-d4e7ad98afea // indirect
 	github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5
@@ -161,7 +161,7 @@ require (
 	golang.org/x/oauth2 v0.0.0-20210819190943-2bc19b11175f
 	golang.org/x/perf v0.0.0-20180704124530-6e6d33e29852
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/sys v0.0.0-20211025201205-69cdffdb9359
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f
 	golang.org/x/term v0.0.0-20210220032956-6a3ed077a48d
 	golang.org/x/text v0.3.7
 	golang.org/x/time v0.0.0-20210723032227-1f47c861a9ac
@@ -191,7 +191,7 @@ require (
 	github.com/Masterminds/goutils v1.1.0 // indirect
 	github.com/Masterminds/semver v1.5.0 // indirect
 	github.com/Masterminds/sprig v2.22.0+incompatible // indirect
-	github.com/Microsoft/go-winio v0.4.17 // indirect
+	github.com/Microsoft/go-winio v0.5.2 // indirect
 	github.com/PuerkitoBio/purell v1.1.1 // indirect
 	github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578 // indirect
 	github.com/alexbrainman/sspi v0.0.0-20180613141037-e580b900e9f5 // indirect
@@ -248,7 +248,7 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/huandu/xstrings v1.3.0 // indirect
 	github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639 // indirect
-	github.com/imdario/mergo v0.3.11 // indirect
+	github.com/imdario/mergo v0.3.12 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
@@ -272,7 +272,7 @@ require (
 	github.com/mailru/easyjson v0.7.6 // indirect
 	github.com/mattn/go-ieproxy v0.0.1 // indirect
 	github.com/mattn/go-runewidth v0.0.7 // indirect
-	github.com/matttproud/golang_protobuf_extensions v1.0.2-0.20181231171920-c182affec369 // indirect
+	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/mapstructure v1.4.1 // indirect
@@ -308,6 +308,7 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	go.opentelemetry.io/proto/otlp v0.9.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
+	go.uber.org/goleak v1.1.12 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
 	go.uber.org/zap v1.16.0 // indirect
 	golang.org/x/mod v0.4.2 // indirect
